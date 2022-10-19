@@ -1,1 +1,100 @@
 /* css file */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body {
+	background-color: hsl(233, 47%, 7%);
+	font-family: 'Inter', sans-serif;
+	color: white;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	display: flex;
+	background-color: hsl(244, 38%, 16%);
+	border-radius: 10px;
+	width: 85%;
+	height: 412px;
+	min-width: 1050px;
+	max-width: 1050px;
+	/* margin-top: 30%; */
+	display: flex;
+	justify-content: space-between;
+}
+
+.main {
+	width: 70%;
+	margin-right: 20px;
+	padding: 80px;
+}
+
+.image-container {
+	width: 30%;
+	min-width: 500px;
+	background-image: url(images/image-header-desktop.jpg);
+	background-repeat:no-repeat;
+	background-size: contain;
+	background-position: center; 
+	aspect-ratio: 270 / 223;
+	position: relative;
+	border-radius: 0 10px 10px 0;
+	overflow: hidden;
+
+}
+
+.image {
+	width: 100%;
+	min-width: 500px;
+	height: 100%;
+	background-color: hsl(277deg 100% 39%);;
+	opacity: .3;
+	border-radius: 0 10px 10px 0;
+}
+
+.title {
+	color: white;
+	margin-top: 0;
+}
+
+span {
+	color: hsl(277, 64%, 61%);
+}
+
+p.description {
+	color: hsla(0, 0%, 100%, 0.75);
+	font-size: 15px;
+	line-height: 22px;
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+
+
+.stats-container {
+	font-family: 'Lexend Deca', sans-serif;
+	display: flex;
+	justify-content: space-between;
+}
+
+.stats {
+	padding: 0 20px;
+}
+
+.companies {
+	padding-left: 0;
+}
+
+.queries {
+	padding-right: 45px;
+}
+
+.stats-number {
+	font-size: 25px;
+}
+
+.stats-description {
+	color: hsla(0, 0%, 100%, 0.6);
+	font-size: 70%;
+	margin-top: -13px;
+}
